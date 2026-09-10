@@ -35,7 +35,7 @@ namespace Part_1___The_Basics
             string greeting = "          Hello World!       ";
             Console.WriteLine($"[{greeting}]");
 
-            string trimmedGreeting = greeting .TrimStart();
+            string trimmedGreeting = greeting.TrimStart();
             Console.WriteLine($"[{trimmedGreeting}]");
 
             trimmedGreeting = greeting.TrimEnd();
@@ -59,8 +59,34 @@ namespace Part_1___The_Basics
             Console.WriteLine(songLyrics.Contains("goodbye"));
             Console.WriteLine(songLyrics.Contains("greetings"));
 
-            //CHALLENGE
+            //Input, Output and Variables
 
+            //1.
+            string firstName = "Zainab";
+            Console.WriteLine($"Hey there, {firstName}");
+            Console.WriteLine("Het there," + firstName);
+
+            //2.
+
+            string passPhrase = "Hey There";
+            Console.WriteLine($"The passPhrase {passPhrase} has {passPhrase.Length} characters");
+
+            //3.
+
+            // The trim () method romeoves all leading trailing whitespace character
+
+            //4. 
+
+            string schoolCheer = "Programmers are the best!";
+            Console.WriteLine( schoolCheer.ToUpper());
+
+            //5.
+
+            string theSong = "I like the stars, you like the moon";
+            Console.WriteLine(theSong.StartsWith("you"));
+            Console.WriteLine(theSong.EndsWith("moon"));
+
+          
 
 
 
